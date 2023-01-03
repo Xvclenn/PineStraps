@@ -1,0 +1,48 @@
+@media screen and (max-width: 767px) {
+
+}
+
+
+
+
+
+
+nav form{
+    gap: 15px;
+    margin-right: 100px;
+}
+
+nav ul {
+    margin-left: 200px;
+}
+
+nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.left {
+    flex: 2;
+    padding-top: 50px;
+    text-align: left;
+    margin-right: 300px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    background-color: aliceblue;
+}
+
+
+.right form {
+    display: flex;
+    flex-direction: column;
+}
